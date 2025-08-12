@@ -1,12 +1,12 @@
 export const url = "https://quorvex.vercel.app"
-export const siteicon = "/icon.png"
+export const siteicon = "/logo.svg"
 
 export const gtm = "GTM-XXXXXXX"
 export const gtmconnected = true
 
-export const sitename = "Documents"
+export const sitename = "Docsview - Quorvex"
 export const description =
-  "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements."
+  "This comprehensive documentation, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements."
 export const keywords = [
   "Next.js",
   "documentation",
