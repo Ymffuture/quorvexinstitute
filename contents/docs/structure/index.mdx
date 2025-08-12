@@ -1,9 +1,18 @@
 ---
 title: Structure
 description: This section provides an overview of Introduction.
+
+---
+---
+**Quorvex Institute** is a forward-thinking technology and skills development hub dedicated to empowering individuals and businesses through innovative learning solutions and cutting-edge software. We specialize in **web development, AI integration, cloud solutions, and digital transformation consulting**, helping our clients adapt, grow, and stay competitive in a rapidly evolving world.
+
+Our mission is simple — **to bridge the gap between ideas and impact** by providing the tools, knowledge, and support needed to turn concepts into reality. Whether you’re an aspiring developer, a growing business, or an enterprise seeking tailored tech solutions, Quorvex Institute is your partner in progress.
+---
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam
+If you want, I can also **adapt this content for SEO** so it ranks better in Google searches for your services. That way, it’s not just replacing Lorem Ipsum, but also working for your business growth.
+
+---
 
 - [x] Write the press release
 - [ ] Update the website
@@ -15,13 +24,49 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum te
 | Paragraph     |    Text     |    And more |
 | Strikethrough |             |    ~~Text~~ |
 
+---
+
+## How to Rename a Downloaded File
+
+When you download a file from **[FamaCloud](https://famacloud.vercel.app/files)**, it may appear without the correct file extension.  
+For example, you might see the file saved as:
+
+```
+
+myselfpdf
+
+```
+
+However, for your computer or browser to open it correctly, it should be renamed with the proper **`.pdf`** extension:
+
+```
+
+myself.pdf
+
+````
+
+**Steps to Rename the File:**
+
+1. Locate the file you downloaded on your device.
+2. **Right-click** (or long-press on mobile) the file name.
+3. Select **Rename**.
+4. Add a dot (`.`) followed by the file extension:
+   - Change `myselfpdf` → `myself.pdf`
+5. Press **Enter** (or tap **Done** on mobile) to save the new name.
+6. Double-click (or tap) to open the PDF.
+
+> 💡 **Tip:** Always make sure you know the correct file type before renaming. For PDFs, use `.pdf`; for images, `.jpg` or `.png`, etc.
+
+---
+
 ## Getting Started
 
 To begin using the Documentation Template, follow these simple steps:
 
 - Start by cloning the repository to your local machine.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.
+We believe in **quality, creativity, and long-term success**, ensuring every project we undertake delivers measurable results and lasting value.
+
 
 ## Blockquotes
 
@@ -31,19 +76,23 @@ Blockquotes are useful for emphasizing key points or quoting external sources:
 
 Feel free to use blockquotes to highlight important information or quotes relevant to your documentation.
 
+---
+
 ## Code Examples with switch
 
 Here a custom tab component from shadcn ui is used.
-
+```jsx {7} showLineNumbers
 <Tabs defaultValue="js" className="pt-5 pb-1">
-  <TabsList className="">
+  <TabsList>
     <TabsTrigger value="js">layout.jsx</TabsTrigger>
     <TabsTrigger value="ts">layout.tsx</TabsTrigger>
   </TabsList>
+
   <TabsContent value="js">
-  ```jsx {7} showLineNumbers
+
 import ThemeProvider from './theme-provider'
- 
+ ```
+```jsx showLineNumbers
 export default function RootLayout({ children }) {
   return (
     <html>
@@ -53,28 +102,31 @@ export default function RootLayout({ children }) {
     </html>
   )}
 ````
+
   </TabsContent>
   <TabsContent value="ts">
+
 ```tsx {11} showLineNumbers
 import ThemeProvider from './theme-provider'
- 
+
 export default function RootLayout({
-  children,
+children,
 }: {
-  children: React.ReactNode
+children: React.ReactNode
 }) {
-  return (
-    <html>
-      <body className="container">
-        <ThemeProvider>{children}</ThemeProvider>
-      </body>
-    </html>
-  )
+return ( <html> <body className="container"> <ThemeProvider>{children}</ThemeProvider> </body> </html>
+)
 }
-```
+
   </TabsContent>
 </Tabs>
+```
+---
 
 ## Conclusion
 
 Thank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!
+
+
+---
+
