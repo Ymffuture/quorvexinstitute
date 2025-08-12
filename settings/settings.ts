@@ -1,4 +1,4 @@
-export const url = "https://quorvexinstitute.vercel.app"
+export const url = "https://quorvex.vercel.app"
 export const siteicon = "/icon.png"
 
 export const gtm = "GTM-XXXXXXX"
@@ -10,12 +10,12 @@ export const description =
 export const keywords = [
   "Next.js",
   "documentation",
-  "Quorvex institute",
+  "Quorvex",
   "open source",
   "SEO",
 ]
 export const urlimage = "/images/og-image.png"
-export const imagealt = "Quorvex institute docs"
+export const imagealt = "Quorvex documents"
 export const twitterhandle = "FutureFBG96"
 
 export const companyname = "Quorvex institute"
