@@ -2,12 +2,13 @@
 title: Introduction
 description: This section provides an overview of Introduction.
 ---
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam
-
+Quorvex Institute is a forward-thinking technology and skills development hub dedicated to empowering individuals and businesses through innovative learning solutions and cutting-edge software. We specialize in web development, AI integration, cloud solutions, and digital transformation consulting, helping our clients adapt, grow, and stay competitive in a rapidly evolving world.
+---
+```yaml
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+```
 
 | Syntax        | Description |   Test Text |
 | :------------ | :---------: | ----------: |
@@ -34,14 +35,14 @@ Feel free to use blockquotes to highlight important information or quotes releva
 ## Code Examples with switch
 
 Here a custom tab component from shadcn ui is used.
-
+```jsx {7} showLineNumbers
 <Tabs defaultValue="js">
   <TabsList>
     <TabsTrigger value="js">layout.jsx</TabsTrigger>
     <TabsTrigger value="ts">layout.tsx</TabsTrigger>
   </TabsList>
   <TabsContent value="js">
-  ```jsx {7} showLineNumbers
+  
 import ThemeProvider from './theme-provider'
  
 export default function RootLayout({ children }) {
@@ -52,10 +53,13 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   )}
-````
+
   </TabsContent>
+
+```
+```jsx {7} showLineNumbers
   <TabsContent value="ts">
-```tsx {11} showLineNumbers
+
 import ThemeProvider from './theme-provider'
  
 export default function RootLayout({
@@ -71,16 +75,17 @@ export default function RootLayout({
     </html>
   )
 }
-```
+
   </TabsContent>
 </Tabs>
-
+```
 ## Conclusion
 
 Thank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!
 
 ## Tabs Example
 
+```jsx 
 <Tabs defaultValue="tab1">
   <TabsList>
     <TabsTrigger value="tab1">Tab 1</TabsTrigger>
@@ -93,3 +98,7 @@ Thank you for choosing the Documentation Template for your project. Whether you'
     <p>This is content for Tab 2.</p>
   </TabsContent>
 </Tabs>
+```
+```txt
+Famacloud
+```
